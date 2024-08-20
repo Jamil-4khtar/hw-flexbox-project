@@ -1,0 +1,19 @@
+:root {
+    --body-back: rgb(158, 21, 80);
+    --section-back: rgb(68, 27, 27);
+    --content-back: rgb(223, 207, 190);
+    --text-black: black;
+    --text-white: white;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--body-back);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

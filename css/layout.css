@@ -1,0 +1,22 @@
+.box {
+    /* display: flex; */
+    width: 90%;
+    min-height: 90%;
+    background-color: var(--content-back);
+    box-shadow: 0 0 10px black;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.main {
+    display: flex;
+    
+}
+footer {
+
+    background-color: var(--section-back);
+}
