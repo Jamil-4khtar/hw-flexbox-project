@@ -15,7 +15,11 @@
     height: 10%;
     width: 100%;
     border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
+
 .main {
     display: flex;
     height: 90%;
@@ -24,12 +28,11 @@
 .main > .section {
     background-color: var(--section-back);
     width: 20%;
-
-    
 }
 .main > .content {
     background-color: var(--content-back);
     width: 80%;
+    padding: 10px;
 }
 
 .footer {

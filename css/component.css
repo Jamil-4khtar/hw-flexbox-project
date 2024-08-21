@@ -1,0 +1,41 @@
+.header > #search {
+    width: 250px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+.header > .user {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15%;
+}
+.header > .user > img {
+    border-radius: 50%;
+    width: 35px;
+}
+.header > .user > button {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
+}
+.section > ul {
+    margin-top: 10px;
+}
+.section > ul > li{
+    list-style: none;
+    padding: 10px;
+}
+.section > ul > li:hover {
+    background-color: var(--body-back);
+}
+.section > ul > li > a {
+    color: var(--text-black);
+    text-decoration: none;
+}
+.section > ul > li > a:hover {
+    color: var(--text-white);
+    text-decoration: underline;
+}
+
