@@ -1,20 +1,18 @@
 .container {
     height: 100%;
     width: 100%;
-    /* padding: 10px; */
-    border: 1px solid black;
+    box-shadow: 0 0 10px black;
     background-color: var(--container-back);
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    
 }
 .header {
     background-color: var(--content-back);
     margin-bottom: auto;
     height: 10%;
     width: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -23,7 +21,7 @@
 .main {
     display: flex;
     height: 90%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 .main > .section {
     background-color: var(--section-back);
@@ -39,6 +37,6 @@
     background-color: black;
     margin-top: auto;
     color: white;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
